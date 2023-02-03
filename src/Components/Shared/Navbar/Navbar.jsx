@@ -11,9 +11,9 @@ const Navbar = () => {
           to="/"
           aria-label="Our product"
           title="Our product"
-          className="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-accent-400"
+          className="text-2xl tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-accent-400"
         >
-          Product
+          Home
         </Link>
       </li>
       <li>
@@ -21,9 +21,9 @@ const Navbar = () => {
           to="/"
           aria-label="Our product"
           title="Our product"
-          className="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-accent-400"
+          className="text-2xl tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-accent-400"
         >
-          Features
+          All Course
         </Link>
       </li>
       <li>
@@ -31,9 +31,9 @@ const Navbar = () => {
           to="/"
           aria-label="Product pricing"
           title="Product pricing"
-          className="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-accent-400"
+          className="text-2xl tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-accent-400"
         >
-          Pricing
+          Blog
         </Link>
       </li>
       <li>
@@ -41,9 +41,19 @@ const Navbar = () => {
           to="/"
           aria-label="About us"
           title="About us"
-          className="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-accent-400"
+          className="text-2xl tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-accent-400"
         >
-          About us
+          Contact
+        </Link>
+      </li>
+      <li>
+        <Link
+          to="/"
+          aria-label="About us"
+          title="About us"
+          className="text-2xl tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-accent-400"
+        >
+          About Us
         </Link>
       </li>
     </>
@@ -56,7 +66,7 @@ const Navbar = () => {
             to="/"
             aria-label="Company"
             title="Company"
-            className="inline-flex items-center ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase"
+            className="inline-flex text-3xl items-center ml-2 font-bold tracking-wide text-gray-800 uppercase"
           >
             Logo
           </Link>
@@ -65,7 +75,17 @@ const Navbar = () => {
             <li>
               <Link
                 to="/"
-                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide bg-[#FFFFFF] text-gray-900 transition duration-200 rounded shadow-md focus:shadow-outline focus:outline-none"
+                className="inline-flex text-2xl items-center justify-center h-12 px-6  text-gray-900 transition duration-200 rounded focus:outline-none"
+                aria-label="Sign In"
+                title="Sign In"
+              >
+                Sign In
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/"
+                className="inline-flex text-2xl items-center justify-center h-12 px-6 tracking-wide bg-[#FFFFFF] text-gray-900 transition duration-200 rounded shadow-md focus:shadow-outline focus:outline-none"
                 aria-label="Sign up"
                 title="Sign up"
               >
@@ -131,7 +151,17 @@ const Navbar = () => {
                       <li>
                         <Link
                           to="/"
-                          className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide bg-[#FFFFFF] text-gray-900 transition duration-200 rounded shadow-md focus:shadow-outline focus:outline-none"
+                          className="inline-flex items-center justify-center w-full h-12 px-6 tracking-wide bg-[#FFFFFF] text-gray-900 transition duration-200 rounded shadow-md focus:shadow-outline focus:outline-none"
+                          aria-label="Sign In"
+                          title="Sign In"
+                        >
+                          Sign In
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="/"
+                          className="inline-flex items-center justify-center w-full h-12 px-6 tracking-wide bg-[#FFFFFF] text-gray-900 transition duration-200 rounded shadow-md focus:shadow-outline focus:outline-none"
                           aria-label="Sign up"
                           title="Sign up"
                         >
