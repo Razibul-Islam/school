@@ -68,7 +68,7 @@ const Navbar = () => {
             title="Company"
             className="inline-flex text-3xl items-center ml-2 font-bold tracking-wide text-gray-800 uppercase"
           >
-            Logo
+            logo
           </Link>
           <ul className="items-center hidden space-x-8 lg:flex">{menu}</ul>
           <ul className="items-center hidden space-x-8 lg:flex">
